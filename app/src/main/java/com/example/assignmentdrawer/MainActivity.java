@@ -14,6 +14,7 @@ import com.google.android.material.snackbar.Snackbar;
 import android.view.MenuItem;
 import android.view.View;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.core.view.GravityCompat;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
@@ -105,26 +106,33 @@ public class MainActivity extends AppCompatActivity implements
 
         int id = item.getItemId();
         Fragment fragment = null;
+        ActionBar actionBar = getSupportActionBar();
         switch(id) {
             case R.id.nav_our_coffee:
                 displayToast(getString(R.string.pick_our_coffee));
                 fragment = new OurCoffeeFragment();
+                actionBar.setTitle(getString(R.string.menu_our_coffee));
                 break;
             case R.id.nav_menu:
                 displayToast(getString(R.string.pick_our_menu));
                 fragment =  new MenuFragment();
+                actionBar.setTitle(getString(R.string.menu_our_menu));
                 break;
             case R.id.nav_beans:
                 displayToast(getString(R.string.pick_beans));
                 fragment = new BeansFragment();
+                actionBar.setTitle(getString(R.string.menu_beans));
+
                 break;
             case R.id.nav_club:
                 displayToast(getString(R.string.pick_club));
                 fragment = new ClubFragment();
+                actionBar.setTitle(getString(R.string.menu_club));
                 break;
             case R.id.nav_shop:
                 displayToast(getString(R.string.pick_shop));
                 fragment = new ShopFragment();
+                actionBar.setTitle(getString(R.string.menu_shop));
                 break;
         }
         if (fragment != null) {
