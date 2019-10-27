@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AssignmentDrawer</string>
+    <string name="nav_header_title">DroidCafe</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_our_coffee">Our coffee</string>
+    <string name="menu_our_menu">Our Menu</string>
+    <string name="menu_club">Coffee Club</string>
+    <string name="menu_beans">Behind the beans</string>
+    <string name="menu_shop">Shop and eGift</string>
+
+    <string name="pick_our_coffee">You selected Our Coffee.</string>
+    <string name="pick_our_menu">You selected Our Menu.</string>
+    <string name="pick_beans">You selected Behind the beans.</string>
+    <string name="pick_club">You selected Coffee Club.</string>
+    <string name="pick_shop">You selected Shop and eGift.</string>
+</resources>

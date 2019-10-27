@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_our_coffee"
+            android:icon="@drawable/ic_cafe_name"
+            android:title="@string/menu_our_coffee"/>
+        <item
+            android:id="@+id/nav_menu"
+            android:icon="@drawable/ic_cafe_menu"
+            android:title="@string/menu_our_menu"/>
+        <item
+            android:id="@+id/nav_club"
+            android:icon="@drawable/ic_cafe_club"
+            android:title="@string/menu_club"/>
+        <item
+            android:id="@+id/nav_beans"
+            android:icon="@drawable/ic_cafe_info"
+            android:title="@string/menu_beans"/>
+        <item
+            android:id="@+id/nav_shop"
+            android:icon="@drawable/ic_cafe_cart"
+            android:title="@string/menu_shop"/>
+    </group>
+
+
+</menu>
